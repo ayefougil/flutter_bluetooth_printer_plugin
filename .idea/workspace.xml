@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60e6e915-c0c4-41cf-968e-5cc224abe77f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/melos_flutter_bluetooth_printer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/melos_flutter_bluetooth_printer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/example/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/example/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/lib/src/flutter_bluetooth_printer_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/lib/src/flutter_bluetooth_printer_impl.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/lib/src/widgets/receipt.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/lib/src/widgets/receipt.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_bluetooth_printer/pubspec.lock" afterDir="false" />
-    </list>
+    <list default="true" id="60e6e915-c0c4-41cf-968e-5cc224abe77f" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +62,15 @@
       <option name="presentableId" value="Default" />
       <updated>1728153707982</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1728250832992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728250832992</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
