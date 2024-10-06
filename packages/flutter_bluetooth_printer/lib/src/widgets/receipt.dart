@@ -4,7 +4,9 @@ class ReceiptController with ChangeNotifier {
   final ReceiptState _state;
 
   PaperSize _paperSize = PaperSize.mm58;
+
   PaperSize get paperSize => _paperSize;
+
   set paperSize(PaperSize size) {
     _paperSize = size;
     notifyListeners();
@@ -41,6 +43,7 @@ class Receipt extends StatefulWidget {
   final Color backgroundColor;
   final TextStyle? defaultTextStyle;
   final void Function(ReceiptController controller) onInitialized;
+  final PaperSize paperSize;
 
   const Receipt({
     Key? key,
@@ -49,16 +52,19 @@ class Receipt extends StatefulWidget {
     required this.builder,
     required this.onInitialized,
     this.containerBuilder,
+    this.paperSize = PaperSize.mm58
   }) : super(key: key);
 
   @override
-  State<Receipt> createState() => ReceiptState();
+  State<Receipt> createState() => ReceiptState(this.paperSize);
 }
 
 class ReceiptState extends State<Receipt> {
   final _localKey = GlobalKey();
-  PaperSize _paperSize = PaperSize.mm58;
+  PaperSize _paperSize;
   late ReceiptController controller;
+
+  ReceiptState(this._paperSize);
 
   @override
   void initState() {
@@ -182,6 +188,7 @@ class ReceiptState extends State<Receipt> {
 
 class _ImagePreviewForDebug extends StatelessWidget {
   final Uint8List bytes;
+
   const _ImagePreviewForDebug({
     super.key,
     required this.bytes,

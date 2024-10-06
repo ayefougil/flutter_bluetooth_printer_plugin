@@ -5,9 +5,9 @@ class DiscoveryResult extends DiscoveryState {
   DiscoveryResult({required this.devices});
 }
 
-enum PaperSize {
+class PaperSize {
   // original is 384 => 48 * 8
-  mm58(360, 58, 'Roll Paper 58mm');
+  static const PaperSize mm58 = PaperSize(360, 58, 'Roll Paper 58mm');
 
   final int width;
   final double paperWidthMM;
